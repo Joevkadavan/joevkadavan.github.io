@@ -99,7 +99,7 @@ function main() {
     fs.writeFileSync(profileReadmePath, readmeContent);
     
     console.log('✅ Profile README.md updated successfully!');
-    console.log('📝 Generated from config.json and pushed to deepthibalasubramanian/deepthibalasubramanian repository');
+    console.log('📝 Generated from config.json');
     
   } catch (error) {
     console.error('❌ Error generating Profile README:', error.message);
